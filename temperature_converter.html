@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="temp_con.css">
+</head>
+
+<body>
+    <h1>Temperature Convertor Website</h1>
+    <div class="temp-top" id="temp-top1">
+        <div class="temp-bg">
+            <div class="cover">
+            <div class="wrapper">
+                    <label for="celcius">Celsius</label>
+                    <input type=" number" id="celcius"  placeholder="Enter Celcius">
+                    <button class="button" onclick="convertFahrenheit()">ConvertFahrenheit</button>
+                    <br><br>
+                    <label for="fahrenheit">Fahrenheit</label>
+                    <input type=" number" id="fahrenheit"  placeholder="Enter Fahrenheit"
+                    >
+                    <button class="button" onclick="convertCelcius()">ConvertCelcius</button>
+                    <br><br>
+
+                    <button class="button" onclick="reset()">Reset</button>
+            </div>  
+            </div>
+        </div>
+
+    </div>
+
+<script src="temp_con.js"></script>
+</body>
+
+</html>
